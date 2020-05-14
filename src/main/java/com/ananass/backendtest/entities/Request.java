@@ -27,7 +27,7 @@ import lombok.Setter;
 @NoArgsConstructor
 public class Request {
     @JsonProperty("locations")
-    public List<Location> locations;
+    public List<Location> locations;    
     @JsonProperty("message")
     public String message;
     @JsonProperty("success")
